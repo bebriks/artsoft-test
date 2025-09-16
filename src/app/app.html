@@ -1,0 +1,20 @@
+<div class="layout">
+      <header class="layout__header">
+        <nav class="layout__nav">
+          <a class="layout__link"
+             routerLink="/list"
+             routerLinkActive="layout__link--active">
+            Список компаний
+          </a>
+          <a class="layout__link"
+             routerLink="/map"
+             routerLinkActive="layout__link--active">
+            Карта
+          </a>
+        </nav>
+      </header>
+
+      <main class="layout__main">
+        <router-outlet></router-outlet>
+      </main>
+</div>

@@ -1,0 +1,35 @@
+.company-map {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &__header {
+    margin-bottom: var(--spacing-large);
+  }
+
+  &__title {
+    margin: 0;
+    color: var(--color-text-primary);
+    font-size: var(--font-size-xlarge);
+    font-weight: var(--font-weight-bold);
+  }
+
+  &__container {
+    background-color: var(--color-background-secondary);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-border);
+  }
+
+  &__placeholder {
+    height: 700px;
+    display: flex;
+    background-color: var(--color-background);
+    border: 2px dashed var(--color-border);
+    border-radius: var(--border-radius);
+  }
+}
+.company-list {
+  &__content {
+    max-height: 696px;
+    overflow-y: scroll;
+  }
+}
